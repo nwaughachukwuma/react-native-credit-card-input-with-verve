@@ -21,7 +21,7 @@ export default class CCFieldValidator {
       type: 'verve',
       patterns: [
         506,
-        6500
+        6500,
         [506099, 506198], 
         [650002, 650027]
       ],
