@@ -23,7 +23,10 @@ export default class CCFieldFormatter {
       niceType: 'Verve',
       type: 'verve',
       patterns: [
-        506, 650
+        506,
+        6500
+        [506099, 506198], 
+        [650002, 650027]
       ],
       gaps: [4, 8, 12, 16],
       lengths: [16, 19],
