@@ -32,7 +32,7 @@ export default class CCFieldFormatter {
         size: 3
       }
     });
-    valid.creditCardType.changeOrder('verve', 0);
+    valid.creditCardType.changeOrder('verve', 2);
   }
 
   formatValues = (values) => {
