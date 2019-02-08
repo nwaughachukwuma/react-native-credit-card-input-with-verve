@@ -24,7 +24,8 @@
     "input",
     "component",
     "react-component",
-    "react-native-component"
+    "react-native-component",
+    "verve card"
   ],
   "author": "nwaughachukwuma",
   "license": "MIT",
