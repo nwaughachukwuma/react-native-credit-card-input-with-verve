@@ -17,6 +17,21 @@ const FALLBACK_CARD = { gaps: [4, 8, 12], lengths: [16], code: { size: 3 } };
 export default class CCFieldFormatter {
   constructor(displayedFields) {
     this._displayedFields = [...displayedFields, "type"];
+
+    // add verve to valid card types
+    valid.creditCardType.addCard({
+      niceType: 'Verve',
+      type: 'verve',
+      patterns: [
+        506, 650
+      ],
+      gaps: [4, 8, 12],
+      lengths: [16],
+      code: {
+        name: 'CVV',
+        size: 3
+      }
+    });
   }
 
   formatValues = (values) => {

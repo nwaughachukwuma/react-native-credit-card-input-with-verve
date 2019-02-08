@@ -14,6 +14,21 @@ export default class CCFieldValidator {
   constructor(displayedFields, validatePostalCode) {
     this._displayedFields = displayedFields;
     this._validatePostalCode = validatePostalCode;
+
+    // add verve to valid card types
+    valid.creditCardType.addCard({
+      niceType: 'Verve',
+      type: 'verve',
+      patterns: [
+        506, 650
+      ],
+      gaps: [4, 8, 12],
+      lengths: [16],
+      code: {
+        name: 'CVV',
+        size: 3
+      }
+    });
   }
 
   validateValues = (formValues) => {
