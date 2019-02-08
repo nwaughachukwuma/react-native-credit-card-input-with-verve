@@ -29,8 +29,6 @@ export default class CCFieldValidator {
         size: 3
       }
     });
-
-    valid.creditCardType.changeOrder('verve', 1);
   }
 
   validateValues = (formValues) => {

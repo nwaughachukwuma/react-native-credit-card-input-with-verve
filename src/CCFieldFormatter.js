@@ -32,8 +32,6 @@ export default class CCFieldFormatter {
         size: 3
       }
     });
-
-    valid.creditCardType.changeOrder('verve', 1);
   }
 
   formatValues = (values) => {
