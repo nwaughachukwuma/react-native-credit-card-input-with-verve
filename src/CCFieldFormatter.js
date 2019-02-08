@@ -25,13 +25,15 @@ export default class CCFieldFormatter {
       patterns: [
         506, 650
       ],
-      gaps: [4, 8, 12],
-      lengths: [16],
+      gaps: [4, 8, 12, 16],
+      lengths: [16, 19],
       code: {
         name: 'CVV',
         size: 3
       }
     });
+
+    valid.creditCardType.changeOrder('verve', 1);
   }
 
   formatValues = (values) => {
