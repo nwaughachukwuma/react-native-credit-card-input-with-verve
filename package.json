@@ -1,6 +1,6 @@
 {
   "name": "react-native-credit-card-input-with-verve",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React native credit card input component with support for verve card",
   "main": "index.js",
   "scripts": {
