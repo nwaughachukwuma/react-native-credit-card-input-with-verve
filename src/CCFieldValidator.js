@@ -15,20 +15,23 @@ export default class CCFieldValidator {
     this._displayedFields = displayedFields;
     this._validatePostalCode = validatePostalCode;
 
-    // add verve to valid card types
-    valid.creditCardType.addCard({
-      niceType: 'Verve',
-      type: 'verve',
-      patterns: [
-        506, 650
-      ],
-      gaps: [4, 8, 12, 16],
-      lengths: [16, 19],
-      code: {
-        name: 'CVV',
-        size: 3
-      }
-    });
+    if (!valid.creditCardType.getTypeInfo('verve')) {
+      // add verve to valid card types
+      valid.creditCardType.addCard({
+        niceType: 'Verve',
+        type: 'verve',
+        patterns: [
+          506, 650
+        ],
+        gaps: [4, 8, 12, 16],
+        lengths: [16, 19],
+        code: {
+          name: 'CVV',
+          size: 3
+        }
+      });
+      valid.creditCardType.changeOrder('verve', 0);
+    }
   }
 
   validateValues = (formValues) => {
