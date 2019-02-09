@@ -57,8 +57,6 @@ export default function connectToState(CreditCardInput) {
         niceType: "Verve",
         type: "verve",
         patterns: [
-          506,
-          6500,
           [506099, 506198],
           [650002, 650027],
         ],
@@ -69,7 +67,7 @@ export default function connectToState(CreditCardInput) {
           size: 3,
         },
       });
-      valid.creditCardType.changeOrder("verve", 2);
+      valid.creditCardType.changeOrder("verve", 3);
     }
 
     componentDidMount = () => setTimeout(() => { // Hacks because componentDidMount happens before component is rendered
