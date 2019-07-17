@@ -1,5 +1,5 @@
 
-# React Native Credit Card Input with Verve
+# React Native Credit Card Input with support for Verve cards
 All credit goes to @sbycrosz [https://github.com/sbycrosz/react-native-credit-card-input]
 
 <p align="center">
