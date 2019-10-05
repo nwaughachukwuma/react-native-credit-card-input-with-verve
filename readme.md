@@ -1,6 +1,6 @@
 
-# React Native Credit Card Input with support for Verve cards
-All credit goes to @sbycrosz [https://github.com/sbycrosz/react-native-credit-card-input]
+# React Native Credit Card Input
+Easy (and good looking) credit-card input for your React Native Project 💳 💳
 
 <p align="center">
 <img src="https://github.com/sbycrosz/react-native-credit-card-input/blob/master/preview-ios.gif?raw=true" width=200/>
@@ -26,6 +26,7 @@ Code:
 * Credit-card input validations & formatting while you're typing
 * Form is fully navigatable using keypad
 * Works on both Android and iOS
+* Now Supports Verve Card
 
 # Usage
 
