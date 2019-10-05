@@ -1,5 +1,5 @@
 {
-  "name": "react-native-credit-card-input",
+  "name": "react-native-credit-card-input-with-verve",
   "version": "0.4.1",
   "description": "React native credit card input component",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbycrosz/react-native-credit-card-input.git"
+    "url": "git+https://github.com/sbycrosz/react-native-credit-card-input-with-verve.git"
   },
   "keywords": [
     "react-native",
@@ -24,14 +24,15 @@
     "input",
     "component",
     "react-component",
-    "react-native-component"
+    "react-native-component",
+    "verve card"
   ],
   "author": "sbycrosz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sbycrosz/react-native-credit-card-input/issues"
+    "url": "https://github.com/sbycrosz/react-native-credit-card-input-with-verve/issues"
   },
-  "homepage": "https://github.com/sbycrosz/react-native-credit-card-input#readme",
+  "homepage": "https://github.com/sbycrosz/react-native-credit-card-input-with-verve#readme",
   "dependencies": {
     "card-validator": "^3.0.0",
     "prop-types": "^15.6.0",
